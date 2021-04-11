@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  max-width: 1280px;
+  height: 818px;
+  background-image: url(../assets/home/masks.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.hero nav {
+  max-width: 1280px;
+  height: 150px;
+  background-color: #010101;
+  display: flex;
+  justify-content: space-between;
+}
+.hero nav .logo-section {
+  width: 338px;
+  height: 92px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.hero nav .logo-section .logo {
+  width: 297px;
+  height: 58px;
+  background-image: url(../assets/logo/audindy.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero nav .logo-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  color: white;
+  margin-left: 25px;
+}
+.hero nav .links {
+  width: 870px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero nav a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.home-content {
+  max-width: 1280px;
+  min-height: 200px;
+  background-color: plum;
+  margin: 0 auto;
+}
+.home-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-top: 25px;
+}
+.home-content .thumbnails {
+  max-width: 1052px;
+  height: 728px;
+  background-color: seagreen;
+  margin: 0 auto;
+}
+.home-content .thumbnails .thumb-container {
+  height: 327px;
+  background-color: blue;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-content .thumbnails .thumbnail {
+  width: 490px;
+  height: 327px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: yellowgreen;
+}
+.home-content .thumbnails .thumbnail .theatre {
+  background-image: url(../assets/home/theatre.jpg);
+}
