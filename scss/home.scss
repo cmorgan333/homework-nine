@@ -58,7 +58,6 @@
 .home-content {
   max-width: 1280px;
   min-height: 200px;
-  background-color: plum;
   margin: 0 auto;
 
   h1 {
@@ -66,37 +65,108 @@
     font-size: 50px;
     color: black;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 50px;
   }
 
   .thumbnails {
     max-width: 1052px;
     height: 728px;
-    background-color: seagreen;
     margin: 0 auto;
+    margin-top: 50px;
 
     .thumb-container {
       height: 327px;
-      background-color: blue;
       margin-bottom: 25px;
       display: flex;
       justify-content: space-between;
-    }
 
-    .thumbnail {
-      width: 490px;
-      height: 327px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: yellowgreen;
+      .thumbnail {
+        width: 490px;
+        height: 327px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
 
       .theatre {
         background-image: url(../assets/home/theatre.jpg);
       }
 
       .dance {
+        background-image: url(../assets/home/dance.jpg);
       }
+
+      .sing {
+        background-image: url(../assets/home/singing.jpg);
+      }
+
+      .band {
+        background-image: url(../assets/home/band.jpg);
+      }
+    }
+  }
+}
+
+footer {
+  max-width: 1280px;
+  height: 206px;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .info {
+    width: 276px;
+    height: 160px;
+
+    .logo {
+      width: 205px;
+      height: 40px;
+      margin-left: 25px;
+      margin-top: 25px;
+      background-image: url(../assets/logo/audindy.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .address {
+      width: 240px;
+      height: 100px;
+      margin-left: 25px;
+      margin-top: 25px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      line-height: 10px;
+    }
+  }
+
+  .socials {
+    width: 348px;
+    height: 47px;
+    margin-top: 70px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+
+    .facebook {
+      width: 86px;
+      height: 86px;
+      background-image: url(../assets/icon/fbookicon.png);
+    }
+
+    .twitter {
+      width: 86px;
+      height: 86px;
+      background-image: url(../assets/icon/twittericon.png);
+    }
+
+    .insta {
+      width: 86px;
+      height: 86px;
+      background-image: url(../assets/icon/instagramicon.png);
     }
   }
 }
