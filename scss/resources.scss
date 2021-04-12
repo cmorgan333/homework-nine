@@ -15,9 +15,134 @@
   .hero {
     max-width: 1280px;
     height: 907px;
+    // opacity: 0.35;
     background-image: url(../assets/resources/trustcircle.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .textbox {
+    width: 1280px;
+    height: 468px;
+    background-color: rgba(5, 5, 5, 0.75);
+    margin: 0 auto;
+  }
+  .smallbox {
+    max-width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .membership {
+    max-width: 1280px;
+    height: 561px;
+    margin-top: 100px;
+
+    h1 {
+      font-size: 60px;
+      margin-bottom: 50px;
+    }
+
+    ul {
+      max-width: 1050px;
+      height: 350px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      color: black;
+      margin-left: 280px;
+
+      li {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .clothes-collage {
+    max-width: 1280px;
+    height: 431px;
+    background-image: url(../assets/resources/clothescollage.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(5, 5, 5, 0.4);
+  }
+  .whyjoin {
+    max-width: 1280px;
+    height: 561px;
+    margin-top: 100px;
+
+    h1 {
+      font-size: 60px;
+      // margin-bottom: 50px;
+    }
+    p {
+      max-width: 1050px;
+      // height: 350px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      color: black;
+      margin-left: 175px;
+      margin-top: 50px;
+      line-height: 40px;
+    }
+  }
+
+  .readytojoin {
+    max-width: 1280px;
+    height: 700px;
+    background-image: url(../assets/resources/standby);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .overlay {
+      max-width: 850px;
+      height: 700px;
+      background-color: rgba(5, 5, 5, 0.75);
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 60px;
+      color: white;
+      padding-top: 20px;
+    }
+    .button {
+      width: 300px;
+      height: 136px;
+      background-color: rgba(143, 84, 149, 0.5);
+      margin-top: 425px;
+      margin-left: 300px;
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+        margin-left: 40px;
+        padding-top: 40px;
+      }
+    }
   }
 }
