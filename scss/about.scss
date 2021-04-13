@@ -108,3 +108,27 @@ nav {
     }
   }
 }
+
+@media only screen and (max-width: 920px) {
+  .about-content {
+    .profile {
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+
+      .headshot {
+        margin: 0 auto;
+        margin-top: 50px;
+      }
+      .profile-text {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        p {
+          width: 350px;
+        }
+      }
+    }
+  }
+}

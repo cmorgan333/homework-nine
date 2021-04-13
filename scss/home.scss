@@ -70,12 +70,12 @@
 
   .thumbnails {
     max-width: 1052px;
-    height: 728px;
+    min-height: 728px;
     margin: 0 auto;
     margin-top: 50px;
 
     .thumb-container {
-      height: 327px;
+      min-height: 327px;
       margin-bottom: 25px;
       display: flex;
       justify-content: space-between;
@@ -167,6 +167,23 @@ footer {
       width: 86px;
       height: 86px;
       background-image: url(../assets/icon/instagramicon.png);
+    }
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .home-content {
+    .thumbnails {
+      margin-bottom: 20px;
+      .thumb-container {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      .thumbnail {
+        padding-bottom: 20px;
+        margin: 0 auto;
+      }
     }
   }
 }

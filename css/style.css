@@ -84,12 +84,12 @@ p {
 }
 .home-content .thumbnails {
   max-width: 1052px;
-  height: 728px;
+  min-height: 728px;
   margin: 0 auto;
   margin-top: 50px;
 }
 .home-content .thumbnails .thumb-container {
-  height: 327px;
+  min-height: 327px;
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
@@ -172,6 +172,19 @@ footer .socials .insta {
   background-image: url(../assets/icon/instagramicon.png);
 }
 
+@media only screen and (max-width: 920px) {
+  .home-content .thumbnails {
+    margin-bottom: 20px;
+  }
+  .home-content .thumbnails .thumb-container {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .home-content .thumbnails .thumbnail {
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+}
 nav {
   max-width: 1280px;
   height: 150px;
@@ -269,6 +282,25 @@ nav a {
   padding-left: 15px;
 }
 
+@media only screen and (max-width: 920px) {
+  .about-content .profile {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .about-content .profile .headshot {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .about-content .profile .profile-text {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .about-content .profile .profile-text p {
+    width: 350px;
+  }
+}
 .resources-content {
   max-width: 1280px;
   min-height: 200px;
@@ -349,8 +381,9 @@ nav a {
 }
 .resources-content .whyjoin {
   max-width: 1280px;
-  height: 561px;
+  min-height: 561px;
   margin-top: 100px;
+  margin: 0 auto;
 }
 .resources-content .whyjoin h1 {
   font-size: 60px;
@@ -366,12 +399,13 @@ nav a {
 }
 .resources-content .readytojoin {
   max-width: 1280px;
-  height: 700px;
+  min-height: 700px;
   background-image: url(../assets/resources/standby);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 50px;
+  margin: 0 auto;
 }
 .resources-content .readytojoin .overlay {
   max-width: 850px;
@@ -398,4 +432,65 @@ nav a {
   color: white;
   margin-left: 40px;
   padding-top: 40px;
+}
+
+.contact-content {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.contact-content h1 {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.contact-content .contact-pic {
+  max-width: 1280px;
+  height: 714px;
+  background-image: url(../assets/resources/auditorium);
+  opacity: 0.5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.contact-content .contact-pic .contact-box {
+  height: 714px;
+  width: 557px;
+  background-color: rgba(5, 5, 5, 0.75);
+  margin: 0 auto;
+  display: block;
+}
+.contact-content .contact-pic input {
+  width: 369px;
+  height: 63px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+.contact-content .contact-pic ::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.contact-content .contact-pic .message {
+  height: 200px;
+}
+.contact-content .submit-button {
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+  background-color: black;
+  margin: 0 auto;
+  margin-left: 175px;
+}
+.contact-content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
